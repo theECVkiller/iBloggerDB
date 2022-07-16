@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-width: 250px;
+}
+
+.container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    margin-left: 20px;
+}
