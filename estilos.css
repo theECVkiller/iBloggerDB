@@ -8,6 +8,8 @@
     height: auto;
     width: 100%;
     min-width: 250px;
+    
+    flex-direction: column;
 }
 
 .container::-webkit-scrollbar {
